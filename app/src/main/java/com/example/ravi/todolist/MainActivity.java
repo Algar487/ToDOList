@@ -22,7 +22,7 @@ import com.example.ravi.todolist.db.TaskDbHelper;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String TAG = "MainActivity";//TAG constant with the name of the class for logging
+    //private static final String TAG = "MainActivity";//TAG constant with the name of the class for logging
     private TaskDbHelper mHelper; // private instance of TaskDbHelper
     private ListView mTaskListView; // list view to display the todos created by user
     private ArrayAdapter<String> mAdapter; // this array adapter will help to poulate the list view
